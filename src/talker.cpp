@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 
     while (rclcpp::ok()) {
         auto msg = std_msgs::msg::String();
-        msg.data = "Hello, world!";
+        msg.data = "Hello this is the test message, world!";
         publisher->publish(msg);
         rclcpp::spin_some(node);
         loop_rate.sleep();
