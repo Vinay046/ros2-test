@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="vinayvp.98@gmail.com">vinay-patil</maintainer>
-  <license>Apache-2.0</license>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
